@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter>
+        <BrowserRouter basename='/bc_react_73_koleso8'>
           <App />
         </BrowserRouter>
       </PersistGate>
