@@ -1,0 +1,1 @@
+function o(t){t=t+"";const s=t.indexOf("."),i=s<0?3:3+t.length-s;let l=t.slice(-i);for(let e=t.length-i;e>-1;e=e-3)if(e-3>-1)l=t.slice(e-3,e)+" "+l;else{l=t.slice(0,e)+" "+l;break}return l}export{o as f};
